@@ -31,9 +31,9 @@ import json
 import requests
 url = "https://aiapi.genielabs.ai/kt/nlp/dialect"
 headers = {
-     "x-client-key":"f{client-key}",
-     "x-client-signature":"f{signature}",
-     "x-auth-timestamp": "f{timestamp}",
+     "x-client-key":f"{client-key}",
+     "x-client-signature":f"{signature}",
+     "x-auth-timestamp": f"{timestamp}",
      "Content-Type": "application/json",
      "charset": "utf-8",
  } 
